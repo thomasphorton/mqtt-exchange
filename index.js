@@ -5,7 +5,7 @@ let defaultOptions = {
     localClientUrl: 'mqtt://localhost:1883'
 }
 
-function MqttRepeater(topics, awsClientConfig, options) {
+function MqttExchange(topics, awsClientConfig, options) {
     this.topics = topics;
 
     this.options = options || {};
@@ -62,4 +62,4 @@ function MqttRepeater(topics, awsClientConfig, options) {
     })
 }
 
-module.exports = MqttRepeater
+module.exports = MqttExchange
