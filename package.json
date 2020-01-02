@@ -1,0 +1,16 @@
+{
+  "name": "mqtt-repeater",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-iot-device-sdk": "^2.2.1",
+    "mqtt": "^3.0.0",
+    "uuid": "^3.3.3"
+  }
+}
